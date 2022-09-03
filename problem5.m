@@ -22,7 +22,7 @@ AA = 0;
 BB = 0;
 
 for i=1:length(A)
-    if (A>70)
+    if(A(i) > 70)
         AA=AA+1
         BB=BB
     else if (plus > A >= minus)
@@ -35,3 +35,7 @@ for i=1:length(A)
 
     end
 end
+
+
+
+% 3 A's and 53 B's?
